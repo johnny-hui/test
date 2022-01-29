@@ -1,0 +1,10 @@
+What is a migration?
+    - A migration is when the model in your application is used to automatically produce commands that create 
+      the database & tables in SQL server. (noSQL approach)
+      
+            - Buttons in the the "Edit", "Create", "Delete" views are mapped to SQL commands.
+
+Things we did for this lab:
+    - We are using Entity Framework Core to inject our Models as entities in our database (SQL-Lite).
+
+    - We then used a Code Generator to generate our Views and Controllers for our entities(models).
